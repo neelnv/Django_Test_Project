@@ -1,0 +1,266 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}<title>Learnlogix - e Learning with Logical Approach</title>{% endblock title %}
+{% block content %}
+<section class="hero_section ">
+  <div class="hero-container container">
+    <div class="hero_detail-box">
+      <h1>
+        Learn form
+        best subject
+        Experts
+      </h1>
+      <p>
+        Get trained by subject experts online and get access to unlimited source of knowledge..
+      </p>
+      <div class="hero_btn-continer">
+        
+       {% include 'form.html' %}
+             
+      </div>
+    </div>
+    <div class="hero_img-container">
+      <div>
+        <img src="{% static 'assets/images/hero.png' %}" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!-- end header section -->
+
+<div class="common_style">
+<!-- academics section -->
+<section class="academics_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="academics_img-container">
+          <img src="{% static 'assets/images/about.png' %}" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="academics_detail-box">
+          <h3>
+            Comprehensive Online Learning Program from class 4 to 9
+          </h3>
+          <p>
+            Give Your Child a personalised Online class with qualified subject experts for Maths, Science, English, Social Science and promise your kid's a Bright Future.
+          </p>
+            
+                  {% include 'form.html' %}
+              
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- end academics section -->
+
+<!-- Engineering section -->
+<section class="Engineering_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="Engineering_detail-box">
+          <h3>
+            Engineering
+          </h3>
+          <p>
+            Right Mentor guidance can pave the path for Your aspiring Engineering dreams in IIT or NIT. Get Personalised Online session with highly qualified and expert faculty for IIT JEE Mains and Advance. Dedicated trainers with customized and goal oriented online classroom program for IIT JEE.
+          </p>
+          {% include 'form.html' %}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="Engineering_img-container">
+          <img src="{% static 'assets/images/admission.png' %}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- end Engineering section -->
+
+<!-- Medical section -->
+<section class="Medical_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="Medical_img-container">
+          <img src="{% static 'assets/images/why.png' %}" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="Medical_detail-box">
+          <h3>
+            Medical - NEET
+          </h3>
+          <p>
+            Exceptional training menthod and best teaching menthodology which helps the medical aspirants to achieve their goal. Join now to visualise the complex concepts with our experts and be the champion.
+          </p>
+          {% include 'form.html' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- end Medical section -->
+
+<!-- customized section -->
+<section class="customized_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="customized_detail-box">
+          <h3>
+            Customized Learning Program
+          </h3>
+          <p>
+            Get a personalised trainer for your academics or extra curricular activities. Shaping your kid's future with our Industry Experts Mentors.
+          </p>
+          {% include 'form.html' %}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="customized_img-container">
+          <img src="{% static 'assets/images/determine.png' %}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- end customized section -->
+
+</div>
+<!-- Whats New section -->
+<section class="client_section layout_padding">
+<h2 class="">
+  What's New on LearnlogiX
+</h2>
+<div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row">
+                
+                  <div class="col-md-3">
+                    <div class="client_img-box">
+                      <img src="{% static 'assets/images/accounts.jpg' %}" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="client_detail-box">
+                      <h5>
+                        Accounts class for 11 & 12
+                      </h5>
+                      <p>
+                        Online classes for accountancy with expert mentor. More than thousands of practise papers, examples and case studies.
+                        Trianed by professionals with real world examples. Enroll now at only 999 INR, and win a refferal cashback worth 199 INR. <pre>Limited period offer </pre>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-md-3">
+                    <div class="client_img-box">
+                      <img src="{% static 'assets/images/spoken.png' %}" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="client_detail-box">
+                      <h5>
+                        Spoken English
+                      </h5>
+                      <p>
+                        Develope skill to boost your professional as well as interpersonal skills. Spoken English in just 1500 INR <pre> limited period offer</pre>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-md-3">
+                    <div class="client_img-box">
+                      <img src="{% static 'assets/images/class_10.png' %}" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="client_detail-box">
+                      <h5>
+                        Class 10 Board
+                      </h5>
+                      <p>
+                        Cover all the important topics and important questions for the Upcoming board exam with our expert faculties. Boost your exam preparation and guranteed success in just 1999 INR per month. <pre> limited period Offer</pre>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      
+ 
+</div>
+
+
+</section>
+    <!-- contact section -->
+
+    <section class="contact_section ">
+      <div class="jumbotron-fluid jumbo_contact">
+        <div class ="container">
+        <div class ="row">
+          <div class ="col-md-6">
+            <div class="d-flex justify-content-center d-md-block">
+              <h2>
+                <center>Register Now</center>
+              </h2>
+            </div>
+            <form action="" method="POST" novalidate>
+              <div class="contact_form-container">
+                {% csrf_token %}
+                {{form.non_feild_errors}}
+                  {% for feild in leads %}
+                  {{feild.label_tag}}{{feild}}
+                    {% for error  in feild.error  %}
+                    <span class = "error_messages">{{error}}</span>                  
+                    {% endfor %}                  
+                  {% endfor %}
+                  <div class="mt-5">
+                    <input type="submit" value ="submit">
+                                                        
+                  </div>            
+      
+              </div>
+      
+            </form>
+          </div>
+          <div  class ="col-md-6">
+            <div class="contact_img-box">
+              <img src="{% static 'assets/images/students.jpg' %}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- end contact section -->
+{% endblock content %}

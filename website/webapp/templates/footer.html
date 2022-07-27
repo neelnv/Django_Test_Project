@@ -1,0 +1,130 @@
+{% load static %}
+<!-- end client section -->
+<section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <h1 class ="display-4">
+          LearnlogiX 
+      </h1>
+    </div>
+      <div class="container layout_padding2">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>
+                Online Learning platform                                                                             
+            </h5>
+           <p class="text-muted">
+               e - learning with logical approach
+           </p>
+          </div>
+          <div class="col-md-3">
+            <h4>
+                Company
+            </h4>
+            <ul>
+              <li>
+                <a href="{% url 'about' %}">
+                    About Us
+                </a>
+              </li>
+              <li>
+               <a href="{% url 'contact' %}">
+                  Contact Us
+               </a>
+              </li>
+              <li>
+                <a href="{% url 'termscondition' %}">
+                    Terms & consitions
+                </a>
+              </li>
+              <li>
+                <a href="{% url 'privacy' %}">
+                    Privacy & Policy
+                </a>
+              </li>
+              <li>
+                <a href="{% url 'child' %}">
+                    Child safety
+                </a>
+              </li>
+              <li>
+                <a href="{% url 'career' %}">
+                    Careers
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>
+                Other Links
+            </h5>
+            <ul>
+              <li>
+                <a href="">
+                    IIT JEE Blog
+                </a>
+              </li>
+              <li>
+                <a href="">
+                    Medical Entrance Exams Blog
+                </a>
+              </li>
+              <li>
+                <a href="">
+                    Previous Year Board Exam Papers Download
+                </a>
+              </li>
+              <li>
+                <a href="">
+                    Why to study with LearnlogiX
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+       
+            <div class="card-footer">
+              <div class= "row justify-content-md-center">
+                <img src="{% static 'assets/images/agent.png' %}" alt="">
+                
+              </div>
+              <div class="form_container">
+                To Know more about our courses,&nbsp; Book a free session.
+                                     
+                    {% include 'form.html' %}
+                
+                </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="social_container">
+             
+              <div class="social-box">
+                <a href="">
+                  <img src="{% static 'assets/images/fb.png' %}" alt="">
+                </a>
+  
+                <a href="">
+                  <img src="{% static 'assets/images/twitter.png' %}" alt="">
+                </a>
+                <a href="">
+                  <img src="{% static 'assets/images/linkedin.png' %}" alt="">
+                </a>
+                <a href="">
+                  <img src="{% static 'assets/images/instagram.png' %}" alt="">
+                </a>
+              </div>
+            </div>
+      </div>
+    </section>
+
+<!-- footer section -->
+<section class="container-fluid footer_section">
+<p>
+  Copyright &copy; 2022 All Rights Reserved By
+  <a href="">Learnlogix Solutions LLP</a>
+</p>
+</section>
+<!-- footer section -->
